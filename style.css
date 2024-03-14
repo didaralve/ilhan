@@ -1,0 +1,71 @@
+/*
+Theme Name: SKT Restara
+Theme URI: https://www.sktthemes.org/shop/free-cafe-restaurant-wordpress-theme
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+Description: SKT Restara theme can be used to create food and restaurant websites. Use cases: Eating house, lunch, dinner, chef, recipe, fish, turkey, chicken, street food, multicuisine, continental dining, diner, bistro, take away, pizza, cafe, coffee and tea shop, pastry, pub, seafood, table order booking, eateries, cafeteria, burger, fast food blogger, hotels, bakery, cup cakes, appetizer, soups, healthy eating lifestyle. Call to action, easy to use using page builder, SEO friendly, WooCommerce and contact form compatible. Editable, flexible and scalable. Demo : https://sktperfectdemo.com/demos/restara/
+Template: skt-pizzeria
+Version: 1.0
+Tested up to: 6.3
+Requires PHP: 7.4
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
+Text Domain: skt-restara
+Tags: two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
+
+SKT Restara is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+
+SKT Restara WordPress Theme has been created by SKT Themes(sktthemes.org), 2023.
+SKT Restara WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{font-family: 'Poppins'; font-size: 16px;}
+h1, h2, h3, h4, h5, h6{font-family: 'Poppins';}
+a:hover {color: #fd7500;}
+#navigation{float:none; text-align:center;} 
+.heder-rightside{float:none;}
+.logo{min-height:60px; padding: 25px 65px 18px 0;}
+.logo:before{content: ''; width: 375px; height: 314px; position: absolute; top: -180px; left: -110px; background: #fd7500; border-radius: 100%; z-index:-1;}
+.logo h2{color:#FFF; font-weight:600; font-size:37px;} 
+.logo p{font-size:16px; color:#FFF; padding:0 0 0 2px;}
+.site-description, a.site-description{margin:3px 0 0 0;}
+.header{background-color:#191919;}
+.header .container{width:99%; padding:0 20px;}
+.heder-rightside{float:right;}
+.header-extras{float:left;}
+.header-extras .header-search-form{bottom:-50px;}
+.header-cart{padding: 20px 0 0 10px;}
+.header-search-toggle{cursor: pointer; background: #2e2e30; width: 54px; height: 54px; line-height: 54px; border-radius: 100%; color: #ffffff; text-align: center; margin:5px 0 0 0;}
+.menuareatop{float:left; text-align:center; width:70%;}
+.main-navigation ul{font-family: 'Poppins'; font-weight:600; text-transform:none;}
+.main-navigation ul li a{line-height:90px; font-weight:600;}
+.main-navigation ul li ul li a{color: #fd7500;}
+.main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a{color: #fd7500;}
+.main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus{background-color:#fd7500;}
+.inner-banner-thumb{background-color:#191919;}
+.transbanner.inner-banner-thumb h1{text-align: center; padding: 0; font-size: 46px; font-weight: 700; top: 45%; left: 0; right: 0;}
+.inner-banner-thumb h1{position: absolute; text-align: center; padding: 0; font-size: 46px; font-weight: 700; top: 37%; left: 0; right: 0;}
+
+#sidebar .wp-block-search__label{font-family: 'Poppins';}
+.main-navigation ul{font-family: 'Poppins';}
+#sidebar ul li a:hover, .blog_lists h4 a:hover, .recent-post h6 a:hover, .recent-post a:hover, .design-by a, .postmeta a:hover, .tagcloud a, .blocksbox:hover h3, .rdmore a, .main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a, .copyright-txt a:hover, #footermenu li.current-menu-item a, #footermenu li.current_page_item a, .header-phone-number, #sidebar li a:hover, .main-navigation ul li ul li a{color: #fd7500;}
+.postmeta a{color:#292929;}
+body.wp-custom-logo .logo{padding: 20px 50px 0 0;}
+.copyright-wrapper{background-color:#1d1c21; color:#FFF;}
+.copyright-txt{padding:40px 0; color:#FFF; text-align:left; font-family: 'Poppins'; font-size:17px; font-weight:400;}
+.cart-customlocation{display: block; position: relative; background: #fd7500; width: 54px; height: 54px; line-height: 54px; border-radius: 100%; font-size: 20px; text-align: center; top:0px;}
+.cart-customlocation img{width:45%; position:relative; top:-3px;}
+.custom-cart-count{font-size: 14px; color: #150909; background-color: #ffffff !important; height: 32px; width: 32px; display: block; border-radius: 50%; text-align: center; line-height: 32px; position: absolute; top: 50%; right: -20px; transform: translateY(-50%);}
+.cols-3{width: 24.99%; margin: 0 0 0.5% 0; padding:0 15px; float:left;}
+.widget-column-4{margin-right: 0 !important;}
+#footer{background-image:none; background-color:#1d1c21;}
+.footer-row .widget_nav_menu ul{ background-color:transparent; padding:0px; margin:0px;}
+.footer-row .widget_nav_menu ul li{display:block; text-align:left;}
+.footer-row ul li a::before {content: ''; padding-right: 0px;}
+.footer-row .cols-3 ul li a{color:#ffffff;}
+.footer-row .widget_nav_menu ul{border-radius:0px; font-family: 'Poppins'; font-size:17px; font-weight:normal;}
+.cols-3 ul li{line-height:30px;}
+.footer-row .cols-3 ul li a:hover, .footer-row .cols-3 ul li.current_page_item a, .footer-row .cols-3 ul li.current-menu-item a{color: #fd7500;}
+#footer:after{display:none;}
+.footerarea{padding:70px 0 0 0;}
+.copyright-txt{border-top: 1px solid #30353d;}
